@@ -3,8 +3,11 @@
 Get a score how scrambled a word is and test if it suffices your requirements
 
 ## Installation
+### bower
 
-	<script src="scramblescore/index.js"></script>
+Install with [bower](http://bower.io):
+
+	$ bower install scramblescore
 
 ## API
 

@@ -1,0 +1,25 @@
+{
+  "name": "scramblescore",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dennistimmermann/scramblescore",
+  "authors": [
+    "Dennis Timmermann <timmermann.dennis@googlemail.com>"
+  ],
+  "description": "get a score how scrambled a word is and test if it suffices your requirements",
+  "keywords": [
+    "scrambled",
+    "scramble",
+    "letters",
+    "words",
+    "test"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
