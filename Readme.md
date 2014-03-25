@@ -1,33 +1,33 @@
-# Scramblescore
+# scramblescore
 
 Get a score how scrambled a word is and test if it suffices your requirements
 
 ## Installation
-### npm
+### [npm](http://npmjs.org)
 
-Install with [npm](http://npmjs.org):
+    $ npm install scramblescore
 
-	$ npm install scramblescore
+### [bower](http://bower.io)
 
-### bower
+    $ bower install scramblescore
+    
+### manual
 
-Install with [bower](http://bower.io):
-
-  $ bower install scramblescore
+    <script src="browser.js"></script>
 
 ## API
 
-### Scramblescore.score(input, control)
-	scramblescore.score("ehllo", "hello")
-  // 1
+### scramblescore.score(input, control)
+    scramblescore.score("ehllo", "hello")
+    // 1
 
-### Scramblescore.test(input, control, maxscore)
-	scramblescore.test("AJvascript", "JAvascript", 1)
-  // true
+### scramblescore.test(input, control, maxscore)
+    scramblescore.test("AJvascript", "JAvascript", 1)
+    // true
 
-  Scramblescore.test("ehlol", "hello", 1)
-  // false
+    Scramblescore.test("ehlol", "hello", 1)
+    // false
 
 ## License
 
-  MIT
+MIT
