@@ -1,0 +1,36 @@
+{
+  "name": "scramblescore",
+  "version": "0.0.2",
+  "description": "Get a score how scrambled a word is",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "browser": "a=$npm_package_name; browserify -r ./index:$a -s $a index.js -o browser.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dennistimmermann/scramblescore.git"
+  },
+  "keywords": [
+    "scramble",
+    "scrambled",
+    "letters"
+  ],
+  "author": {
+    "name": "Dennis Timmermann",
+    "email": "dennis@tmrmn.com",
+    "url": "http://tmrmn.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dennistimmermann/scramblescore/issues"
+  },
+  "homepage": "https://github.com/dennistimmermann/scramblescore",
+  "devDependencies": {
+    "mocha": "*",
+    "browserify": "^3.0.0"
+  }
+}
